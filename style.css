@@ -149,9 +149,14 @@ z-index: 10;
 }
 
   .main2 video {
-    position: relative;
-    max-width: 328px;
-  }
+    
+      position: absolute;
+      right: 20%;
+      top: 20%;
+      max-width: 328px;
+    }
+     
+  
 
    
   .main2text {
