@@ -149,16 +149,11 @@ z-index: 10;
 }
 
   .main2 video {
-    
       position: absolute;
-      right: 20%;
+      right:13%;
       top: 20%;
-      max-width: 328px;
+      max-width: 336px;
     }
-     
-  
-
-   
   .main2text {
     display: flex;
     flex-direction: column;
@@ -168,6 +163,11 @@ z-index: 10;
   .sepration2 {
     height: 10px;
     background-color: rgb(44, 44, 44);
+  }
+  .screenwraper{
+    position: relative;
+    top: 0;
+    left: 0;
   }
   @media only screen and (max-width: 614px) {
     .btnflex {
